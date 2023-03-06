@@ -21,10 +21,10 @@ body {
   .fa-arrow-left {
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     left: 20px;
-    top: 35%;  
+    top: 40%;  
   }
   .fa-arrow-left:hover {
     color: grey;
@@ -33,7 +33,7 @@ body {
   #logo .logo{
     display: flex;
     margin-left: 0px;
-    width: 370px;
+    width: 270px;
   }
     
   .navbar .logo {
@@ -198,14 +198,14 @@ body {
    display: flex;
    justify-content: space-between;
    overflow: hidden;
-   width: 100%;
+   width: 87%;
    transition-duration: 0.5s;
   }
   
   .price{
     position: absolute;
     right: 25px;
-    top: 22px;
+    top: 20px;
     font-size: 15px;
     font-weight: 700;
   }
@@ -213,7 +213,7 @@ body {
   .Restaurant-menu .Menu-RHUM {
     margin: 0 15px 15px 0;
     background: white;
-    height: 80px;
+    height: auto;
     width: 100%;
     border-radius: 20px;
     box-shadow: 2px 2px 7px #d3d3d3;
@@ -226,7 +226,7 @@ body {
     width: 95%;
     font-size: 13px;
     font-weight: 400;
-    white-space: nowrap;
+    white-space: pre-line;
     overflow: hidden;
   }
     
@@ -257,7 +257,7 @@ body {
   .Restaurant-menu .dish {
     margin: 0 15px 15px 0;
     background: white;
-    height: 80px;
+    height: auto;
     width: 100%;
     border-radius: 20px;
     box-shadow: 2px 2px 7px #d3d3d3;
@@ -270,13 +270,13 @@ body {
     margin: 0px 0px 0px 15px;
     font-weight: normal;
     font-size: 13px;
-    white-space: nowrap;
+    white-space: pre-line;
     overflow: hidden;
     text-overflow: ellipsis;
   }
   
 .Menu-RHUM h3 {
-  margin-left: 2%;
+  margin-left: 4%;
 }
 
   .dish h3 {
@@ -302,7 +302,7 @@ body {
   .dessert {
     margin: 0 15px 15px 0;
     background: white;
-    height: 80px;
+    height: auto;
     width: 100%;
     border-radius: 20px;
     box-shadow: 2px 2px 7px #d3d3d3;
@@ -319,7 +319,7 @@ body {
     font-size: 13px;
     margin: 0px 0px 0px 15px;
     font-weight: normal;
-    white-space: nowrap;
+    white-space: pre-line;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -337,37 +337,36 @@ body {
     position: relative;
   }
 
-  .footer{
-      position:fixed;
-      left:0px;
-      bottom:0px;
-      height:auto;
-      width:100%;
-      display: flex;
-      justify-content: center;
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    position:relative;
+    margin-top: 60%;
   }
 
-  .chess {
+  .footer-blocs {
     width: 100%;
-    position: absolute;
-    height: 300px;
-    margin-top: 25px;
+  }
+    
+  .iconfooter .linkicon span{
+    color: #d9d9d9;
   }
 
-  .chess {
-    display: inline-flex;
-    border: 1px solid rgb(10, 131, 84, 0.17);
-    font-size: 0;
+  .footer .iconfooter span a:hover{
+    text-decoration: underline;
   }
-  .chess .row .case {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    background: rgb(39, 177, 124);
-  }
-  .chess .row:nth-child(odd) .case:nth-child(odd),
-  .chess .row:nth-child(even) .case:nth-child(even) {
-    background: rgb(244, 247, 244);
+  
+  .footer-informations .iconfooter{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
   }
       
   @media only screen and (min-width:768px) and (max-width: 1023px) { /* tablets */
