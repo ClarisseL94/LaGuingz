@@ -150,16 +150,20 @@ body {
     margin-bottom: 50px;
   }
    
-  .Description .titleRes{
+  .Boissontitle {
+    position: relative;
+    padding-top: 55px;
+  }
+
+  .Description .titleBois{
     display: flex;
-    margin-top: 90px;
     margin-bottom: 20px;
     text-align: center;
     cursor: none;
     height: 110px;
     justify-content: center;
     align-items: center;
-    font-size: 49px;
+    font-size: 30px;
     font-weight: 600;
     color: white;
     cursor: default;
@@ -167,6 +171,9 @@ body {
     border-radius: 60px; 
     border: 0px;
     transition: all 0.3s ease-in-out;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
   }
 
   .Drinks {
@@ -186,14 +193,9 @@ body {
     justify-content: center;
   }
 
-a:link 
-{ 
- color: black;
-} 
-
-.HTU-text a:hover{
-  color: #079748;
-  text-decoration-color: #08140c;
+.HTU-text a{
+  text-decoration: none;
+  color: white;
 }
 
   .HowToUse {
