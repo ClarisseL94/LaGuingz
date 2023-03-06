@@ -205,9 +205,13 @@ body {
   .price{
     position: absolute;
     right: 25px;
-    top: 20px;
+    top: 0px;
     font-size: 15px;
     font-weight: 700;
+  }
+
+  .pricee {
+    margin-right: 10%;
   }
   
   .Restaurant-menu .Menu-RHUM {
