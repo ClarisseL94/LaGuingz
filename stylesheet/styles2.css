@@ -1,0 +1,672 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    padding: 0;
+    background-color: white;
+    max-width: 767px;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    display: flex;
+    position: sticky;
+    background: white;
+    height: 170px;
+    box-shadow: 0 2px 2px #d9d9d9;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .fa-arrow-left {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 35%;  
+  }
+  .fa-arrow-left:hover {
+    color: grey;
+  }
+  
+  #logo .logo{
+    display: flex;
+    margin-left: 0px;
+    width: 370px;
+  }
+    
+  .navbar .logo {
+     display: flex;
+     max-width: 100%;
+     max-height: 100%;
+     margin: 0px;
+  }
+  
+  .background {
+    overflow: hidden;
+    height: 320px;
+  }
+  
+  #backgroundimg img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .Restaurant-menu{
+    position: relative;
+    background-color: #f2f2f2;
+    border-radius: 45px 45px 0px 0px;
+    margin-top: -110px;
+    padding-bottom: 10px;
+    height: 2500px;
+  }
+  
+  .Page-menu{
+    margin: 0px 10px;
+  }
+  
+  .title-h1-and-icon {
+    display: flex;
+    width: 95%;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    font-family: "shrikhand";
+    font-size: 30px;
+  }
+    
+.enter-title {
+  display: flex;
+  justify-content: center;
+}
+
+  .enter-title h2{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 5px;
+  }
+    
+  .Restaurant-menu .Menu-entry{
+    margin: 0 15px 15px 0;
+    background: white;
+    height: 80px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px #d3d3d3;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .both {
+    display: flex;
+    width: 100%;
+  }
+
+ .DrinksPrice .SideAndPricee .pricee {
+  font-weight: bold;
+ }
+
+  .SideAndPricee {
+    display: flex;
+    width: 100%;
+  }
+
+  .DrinksPrice {
+    display: flex;
+    width: 100%;
+  }
+
+  .side-drinks {
+    width: 85%;
+    margin: 0px 0px 0px 15px;
+    font-weight: normal;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    top: 17px;
+  }
+
+  .Entry-menu {
+    height: 750px;
+  }
+  
+  .Entry-menu {
+    animation: appear 13s;
+    -moz-animation: appear 13s; /* Firefox */
+    -webkit-animation: appear 13s; /* Safari et Chrome */
+    animation-delay: 1ms;
+  }
+  
+.Dish-menu {
+  height: auto;
+}
+
+  .Dish-menu {
+    animation: appear 10s;
+    -moz-animation: appear 10s; /* Firefox */
+    -webkit-animation: appear 10s; /* Safari et Chrome */
+    animation-delay: 1ms; 
+  }
+  
+.Dessert-menu {
+  height: 750px;
+}
+
+  .Dessert-menu {
+    animation: appear 7s;
+    -moz-animation: appear 7s; /* Firefox */
+    -webkit-animation: appear 7s; /* Safari et Chrome */
+    animation-delay: 1ms;
+  }
+  @keyframes appear {
+    0% {
+        transform: translateY(-500px);
+        opacity:0;
+      }
+  100% {
+        transform: translateY(0);
+        opacity:1;
+      }
+  }
+  @-moz-keyframes appear { /* Firefox */
+    0%  {
+        transform: translateY(-500px);
+        opacity:0;
+      }
+  100%  {
+        transform: translateY(0);
+        opacity:1;
+      }
+  }
+  @-webkit-keyframes appear { /* Safari et Chrome */
+    0%  {
+         transform: translateY(-500px);
+         opacity:0;
+      }
+  100%  {
+         transform: translateY(0);
+         opacity:1;
+      }
+  }
+  
+  .SideAndPrice {
+   display: flex;
+   justify-content: space-between;
+   overflow: hidden;
+   width: 100%;
+   transition-duration: 0.5s;
+  }
+  
+  .price{
+    position: absolute;
+    right: 25px;
+    top: 22px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .Restaurant-menu .Menu-RHUM {
+    margin: 0 15px 15px 0;
+    background: white;
+    height: 80px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px #d3d3d3;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .side-entry {
+    margin: 0px 0px 0px 15px;
+    width: 95%;
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+    
+  .Menu-entry h3{
+   margin: 15px 0px 5px 15px;
+   font-size: 15px;
+   font-family: Roboto,sans-serif;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+  }
+  
+.dish-title {
+  display: flex;
+  justify-content: center;
+}
+
+  .dish-title h2{
+    font-weight: 400;
+    font-size: 25px;
+    margin: 5px;
+  }
+  
+  .Restaurant-menu .dish{
+   animation: fadein 4s;
+  }
+  
+  .Restaurant-menu .dish {
+    margin: 0 15px 15px 0;
+    background: white;
+    height: 80px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px #d3d3d3;
+    position: relative;
+    overflow: hidden;
+  }
+    
+  .side-dish {
+    width: 70%;
+    margin: 0px 0px 0px 15px;
+    font-weight: normal;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+.Menu-RHUM h3 {
+  margin-left: 2%;
+}
+
+  .dish h3 {
+    margin: 15px 0px 5px 15px;
+    font-size: 15px;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+.dessert-title {
+  display: flex;
+  justify-content: center;
+}
+
+  .dessert-title h2 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 5px;
+  }
+  
+  .dessert {
+    margin: 0 15px 15px 0;
+    background: white;
+    height: 80px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px #d3d3d3;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .Dessert-menu {
+    margin-top: 10%;
+  }
+    
+  .side-dessert {
+    width: 70%;
+    font-size: 13px;
+    margin: 0px 0px 0px 15px;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .dessert h3 {
+    margin: 15px 0px 5px 15px;
+    width: 70%;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+    
+  .bloc-logo {
+    position: relative;
+  }
+
+  .footer{
+      position:fixed;
+      left:0px;
+      bottom:0px;
+      height:auto;
+      width:100%;
+      display: flex;
+      justify-content: center;
+  }
+
+  .chess {
+    width: 100%;
+    position: absolute;
+    height: 300px;
+    margin-top: 25px;
+  }
+
+  .chess {
+    display: inline-flex;
+    border: 1px solid rgb(10, 131, 84, 0.17);
+    font-size: 0;
+  }
+  .chess .row .case {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: rgb(39, 177, 124);
+  }
+  .chess .row:nth-child(odd) .case:nth-child(odd),
+  .chess .row:nth-child(even) .case:nth-child(even) {
+    background: rgb(244, 247, 244);
+  }
+      
+  @media only screen and (min-width:768px) and (max-width: 1023px) { /* tablets */
+  
+  body {
+      min-width: 768px;
+      max-width: 1023px;
+  }
+  
+  .fa-arrow-left {
+     font-size: 30px; 
+  }  
+    
+  #logo .logo{
+      width: 390px;
+      margin-top: 15px;
+  }
+      
+  .title-h1-and-icon {
+    justify-content: center;
+    font-size: 40px;
+    }  
+  
+  .title-h1-and-icon i {
+    margin-left: 30px;
+    } 
+    
+  .Entry-menu{
+    height: 420px;
+    width: 45%;
+    margin-bottom: 20px;
+  }
+    
+  .Menu-entry:hover .check {
+    width: 120px;
+    transition: 0.45s ease-in-out;
+  }
+  
+  .Menu-entry:hover .price{
+      transform: translateX(-250%);
+    transition: 0.45s ease-in-out;
+  } 
+  
+  .Menu h3{
+    font-size: 15px; 
+  }
+    
+  .Menu p {
+   font-size: 14px;
+  } 
+    
+  .check .fa-check-circle {
+    left: 10px;
+    top: 20px;
+    font-size: 35px;
+  }
+  
+  .Dish-menu {
+    height: 420px;
+    width: 45%;
+    position: absolute;
+    top:14.2%;
+    left: 50%;
+  }
+    
+  .dish:hover .check {
+    width: 120px;
+    transition: 0.45s ease-in-out;
+  }
+  
+  .dish:hover .price {
+      transform: translateX(-170%);
+    transition: 0.45s ease-in-out;
+  }  
+  
+  .Dessert-menu {
+    margin-left: 25%;
+    height: 320px;
+    width: 50%; 
+  }
+  
+  .dessert:hover .check {
+    width: 120px;
+    transition: 0.45s ease-in-out;
+  }
+  
+  .dessert:hover .price{
+      transform: translateX(-250%);
+    transition: 0.45s ease-in-out;
+  } 
+    
+  .line-title {
+    width: 20%;
+  }  
+    
+  .order-button {
+    margin-top: 10px;
+    height: 90px;
+  }
+  
+  .order button {
+    font-size: 27px;  
+  }  
+    
+  .footer-blocs {
+    display: flex;
+    margin-top: 0px;
+  }
+    
+  .footer-informations {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .footer-informations .bloc-logo {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  } 
+    
+  .liste-informations {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+  } 
+    
+  .filters-button i {
+    margin-right: 0px;
+    margin-left: 25px;
+  }  
+  .liste-informations a{
+    margin-left: 25px; 
+    }
+    
+  .liste-informations li  {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    font-size: 17px;  
+    }
+    
+  .liste-informations li:hover{
+    text-decoration: underline;
+    }  
+  }   
+    
+  @media only screen and (min-width:1024px) { /* pc */  
+    
+  body {
+   min-width: 1024px;
+   max-width: none; 
+   margin: 0;
+  }  
+      
+  .check .fa-check-circle {
+    left: 10px;
+    top: 20px;
+    font-size: 35px;
+  }  
+    
+  .Menu-entry:hover .check {
+    width: 120px;
+  }  
+  .dish:hover .check {
+    width: 120px;
+  } 
+  .dessert:hover .check {
+    width: 120px;
+  }
+    
+  .title-h1-and-icon{
+   justify-content: center;
+   font-size: 40px;
+   margin-top: 0px;
+  }
+    
+  .title-h1-and-icon i{
+   margin-left: 25px;
+  }
+    
+  .Menu{
+   display: grid;
+   padding-bottom: 40px;
+   grid-template-columns: 32% 32% 32%;
+   grid-template-rows: 390px;
+   margin: 0px;
+   gap: 2%;
+  }  
+  
+  .price{
+    top: 27px;
+  } 
+    
+  .enter-title{
+   display: grid;
+   justify-content: center;
+  }
+      
+  .dish-title{
+    display: grid;
+    justify-content: center;
+  }
+   
+  .Menu-entry:hover .price{
+    right: 19%;
+    transform: translateX(15%);
+    transition: 0.5s ease-in-out;
+  }   
+    
+  .dish:hover .price{
+      right: 19%;
+      transform: translateX(15%);
+    transition: 0.5s ease-in-out;
+  } 
+      
+  .dessert:hover .price{
+      right: 19%;
+      transform: translateX(15%);
+    transition: 0.5s ease-in-out;
+  } 
+    
+  .Menu h3{
+    font-size: 15px;  
+    font-weight: 700;
+  }
+    
+  .Menu p{
+    font-size: 12px;
+  }  
+    
+  .line-title{
+    display: grid;
+    width: 90%;
+    justify-content: center;
+  }
+    
+  .dessert-title{
+    display: grid;
+    justify-content: center;
+  }  
+    
+  .order-button {
+    display: grid;
+    width: 30%;
+    justify-content: center;
+    position: absolute;
+    height: 70px;
+    left: 35%;
+    font-size: 30px;
+  }
+        
+  .footer-blocs {
+    display: flex;
+    margin-top: 0px;
+  }
+    
+  .footer-informations {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .footer-informations .bloc-logo {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  } 
+    
+  .liste-informations {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 25px;
+  } 
+    
+  .filters-button i {
+    margin-right: 0px;
+    margin-left: 25px;
+  } 
+    
+  .liste-informations a{
+    margin-left: 25px; 
+  }
+    
+  .liste-informations li  {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    font-size: 20px;  
+    }
+   
+  .liste-informations li:hover{
+    text-decoration: underline;
+    }  
+  }    
