@@ -200,6 +200,7 @@ body {
    overflow: hidden;
    width: 87%;
    transition-duration: 0.5s;
+   font-style: italic;
   }
   
   .price{
