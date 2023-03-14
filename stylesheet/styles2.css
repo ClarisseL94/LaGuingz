@@ -60,8 +60,8 @@ body {
     border-radius: 45px 45px 0px 0px;
     margin-top: -45px;
     padding-bottom: 10px;
-    height: 2500px;
-    box-shadow: 2px 2px 7px white;
+    height: auto;
+    
   }
   
   .Page-menu{
@@ -86,7 +86,6 @@ body {
 }
 
   .enter-title h2{
-    font-family: roboto;
     font-weight: 400;
     font-size: 17px;
     margin: 5px;
@@ -96,10 +95,10 @@ body {
   .Restaurant-menu .Menu-entry{
     margin: 0 15px 15px 0;
     background: #0d0c0c;
-    height: 55px;
+    height: auto;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 2px 2px 7px #d3d3d3;
+    box-shadow: 2px 2px 7px #a85e8e;
     position: relative;
     overflow: hidden;
     color: white;
@@ -137,7 +136,7 @@ body {
   }
 
   .Entry-menu {
-    height: 750px;
+    height: auto;
   }
 
   .entryY-menu {
@@ -163,7 +162,8 @@ body {
 }
 
 .DishH-menu {
-  height: 300px;
+  height: auto;
+  margin-bottom: 15%;
 }
 
   .Dish-menu {
@@ -181,11 +181,12 @@ body {
   }
   
 .Dessert-menu {
-  height: 750px;
+  height: auto;
 }
 
 .DessertT-menu {
-  height: 300px;
+  height: auto;
+  margin-bottom: 15%;
 }
 
   .Dessert-menu {
@@ -299,11 +300,15 @@ body {
       }
   }
 
+  .DessertBis-menu {
+    margin-top: 30px;
+  }
+
   .SideAndPrice {
    display: flex;
    justify-content: space-between;
    overflow: hidden;
-   width: 87%;
+   width: 100%;
    transition-duration: 0.5s;
    font-style: italic;
   }
@@ -311,7 +316,7 @@ body {
   .price{
     position: absolute;
     right: 25px;
-    top: 0px;
+    top: 3px;
     font-size: 11px;
     font-weight: 700;
   }
@@ -325,10 +330,10 @@ body {
   .Restaurant-menu .Menu-RHUM {
     margin: 0 15px 15px 0;
     background:#0d0c0c ;
-    height: 55px;
+    height: auto;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 2px 2px 7px #d3d3d3;
+    box-shadow: 2px 2px 7px #a85e8e;
     position: relative;
     overflow: hidden;
     color: white;
@@ -336,7 +341,7 @@ body {
 
   .side-entry {
     margin: 0px 0px 0px 15px;
-    width: 95%;
+    width: 82%;
     font-size: 11px;
     font-weight: 400;
     white-space: pre-line;
@@ -373,10 +378,10 @@ body {
   .Restaurant-menu .dish {
     margin: 0 15px 15px 0;
     background:#0d0c0c ;
-    height: 55px;
+    height: auto;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 2px 2px 7px #d3d3d3;
+    box-shadow: 2px 2px 7px #a85e8e;
     position: relative;
     overflow: hidden;
     color: white;
@@ -394,6 +399,8 @@ body {
   
 .Menu-RHUM h3 {
   margin-left: 4%;
+  margin-bottom: 1%;
+  font-size: 11px;
 }
 
   .dish h3 {
@@ -421,10 +428,10 @@ body {
   .dessert {
     margin: 0 15px 15px 0;
     background: #0d0c0c;
-    height: 75px;
+    height: auto;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 2px 2px 7px #d3d3d3;
+    box-shadow: 2px 2px 7px #a85e8e;
     position: relative;
     overflow: hidden;
     color: white;
@@ -435,7 +442,7 @@ body {
   }
     
   .side-dessert {
-    width: 70%;
+    width: 75%;
     font-size: 11px;
     margin: 0px 0px 0px 15px;
     font-weight: normal;
