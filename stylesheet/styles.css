@@ -167,7 +167,7 @@ body {
     font-weight: 600;
     color: white;
     cursor: default;
-    background: linear-gradient(#400e39, #08140c);
+    background: linear-gradient(#366912, #63806d);
     border-radius: 60px; 
     border: 0px;
     transition: all 0.3s ease-in-out;
@@ -219,7 +219,7 @@ body {
     display: flex;
     width: 90%;
     align-items: center;
-    background: #a63318;
+    background:linear-gradient(#29871c, #572a50);
     border-radius: 20px;
     margin-bottom: 20px;
     margin-left: 5%;
