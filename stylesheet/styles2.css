@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     margin: auto;
     padding: 0;
-    background-color: rgb(245, 242, 242);
+    background-color: white;
     max-width: 767px;
     cursor: pointer;
   }
@@ -33,7 +33,7 @@ body {
   #logo .logo{
     display: flex;
     margin-left: 0px;
-    width: 270px;
+    width: 100%;
   }
     
   .navbar .logo {
@@ -56,7 +56,7 @@ body {
   
   .Restaurant-menu{
     position: relative;
-    background-color: #f8f5f5;
+    background-color: white;
     border-radius: 45px 45px 0px 0px;
     margin-top: -45px;
     padding-bottom: 10px;
@@ -104,11 +104,11 @@ body {
 
   .Menu-RHUuM {
   margin: 0 15px 15px 0;
-    background:#f2f5f3 ;
+    background:white;
     height: auto;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 2px 2px 7px #2abe57;
+    box-shadow: 2px 2px 7px #25531f;
     position: relative;
     overflow: hidden;
     color: rgb(7, 7, 7);
@@ -140,11 +140,11 @@ body {
 
   .Restaurant-menu .Menu-entry{
     margin: 0 15px 15px 0;
-    background: #f8f6f6;
+    background: white;
     height: auto;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 2px 2px 7px #37b85e;
+    box-shadow: 2px 2px 7px #25531f;
     position: relative;
     overflow: hidden;
     color: rgb(7, 6, 6);
@@ -375,11 +375,11 @@ body {
   
   .Restaurant-menu .Menu-RHUM {
     margin: 0 15px 15px 0;
-    background:#faf8f8 ;
+    background:white ;
     height: auto;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 2px 2px 7px #1e9746;
+    box-shadow: 2px 2px 7px #25531f;
     position: relative;
     overflow: hidden;
     color: rgb(3, 3, 3);
@@ -396,7 +396,7 @@ body {
     
   .Menu-entry h3{
    margin: 15px 0px 5px 15px;
-   font-size: 11px;
+   font-size: 9px;
    font-family: Roboto,sans-serif;
    text-overflow: ellipsis;
    white-space: nowrap;
@@ -423,11 +423,11 @@ body {
   
   .Restaurant-menu .dish {
     margin: 0 15px 15px 0;
-    background:#f8f8f8 ;
+    background:white;
     height: auto;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 2px 2px 7px #27964c;
+    box-shadow: 2px 2px 7px #25531f;
     position: relative;
     overflow: hidden;
     color: rgb(8, 8, 8);
@@ -451,9 +451,8 @@ body {
 
   .dish h3 {
     margin: 15px 0px 5px 15px;
-    font-size: 11px;
-    width: 70%;
-    white-space: nowrap;
+    font-size: 10px;
+    width: 75%;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -473,11 +472,11 @@ body {
   
   .dessert {
     margin: 0 15px 15px 0;
-    background: #f8f7f7;
+    background: white;
     height: auto;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 2px 2px 7px #23923b;
+    box-shadow: 2px 2px 7px #25531f;
     position: relative;
     overflow: hidden;
     color: rgb(4, 8, 5);
@@ -514,12 +513,14 @@ body {
     display: flex;
     justify-content: center;
     margin: 5px;
-    background-color: #faf8f8;
-    color: rgb(27, 158, 66);
+    background-color: #25531f;
+    color: white;
     text-decoration: none;
     list-style-type: none;
     position:relative;
     margin-top: 60%;
+    width: 100%;
+    margin-left: 0%;
   }
 
   .footer-blocs {
@@ -527,7 +528,7 @@ body {
   }
     
   .iconfooter .linkicon span{
-    color: #299b4f;
+    color: white;
   }
 
   .footer .iconfooter span a:hover{
